@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biker Zone</title>
+    <!-- style script -->
+     <link rel="stylesheet" href="style.css">
     <!-- daisy ui -->
     <link 
     href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" 
@@ -151,7 +153,64 @@
     </header>
     <!-- Main Section -->
     <main class="md:container mx-auto">
+        <section>
+            <h2 class="text-3xl font-bold text-center mt-5 mb-5">Featured Bikes in this year</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-5 mb-10">
+            <img class="img" src="images/others/2148875785.jpg" alt="">
+            <img class="img" src="images/others/2150704655.jpg" alt="">
+            <img class="img" src="images/others/3242.jpg" alt="">
+        </div>
+        </section>
 
+        <!-- cards section -->
+        <section>
+            <h2 class="text-3xl font-bold text-center mt-5 mb-5">Latest Bikes</h2>
+            <!-- cards -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12"> 
+                <!-- card 1 -->
+                <div class="card bg-base-100  shadow-xl">
+                    <figure>
+                      <img
+                        src="./images/others/latest1.png" />
+                    </figure>
+                    <div class="card-body space-y-5">
+                      <h2 class="card-title">Ducati XDAIVEL S-73</h2>
+                      <p>XDiavel Nera expresses the power of opposites, combining the relaxed pace typical of the cruiser world with the sporty ride and thrilling performance of Ducati.</p>
+                      <div class="card-actions">
+                        <button class="btn bg-bike_primary text-white">Read More</button>
+                      </div>
+                    </div>
+                </div>
+                <!-- card 2 -->
+                <div class="card bg-base-100  shadow-xl">
+                    <figure>
+                      <img
+                        src="./images/others/latest2.png" />
+                    </figure>
+                    <div class="card-body space-y-5">
+                      <h2 class="card-title">Ducati XDAIVEL S-73</h2>
+                      <p>XDiavel Nera expresses the power of opposites, combining the relaxed pace typical of the cruiser world with the sporty ride and thrilling performance of Ducati.</p>
+                      <div class="card-actions">
+                        <button class="btn bg-bike_primary text-white">Read More</button>
+                      </div>
+                    </div>
+                </div>
+                <!-- card 3 -->
+                <div class="card bg-base-100  shadow-xl">
+                    <figure>
+                      <img
+                        src="./images/others/latest3.png" />
+                    </figure>
+                    <div class="card-body space-y-5">
+                      <h2 class="card-title">Ducati XDAIVEL S-73</h2>
+                      <p>XDiavel Nera expresses the power of opposites, combining the relaxed pace typical of the cruiser world with the sporty ride and thrilling performance of Ducati.</p>
+                      <div class="card-actions">
+                        <button class="btn bg-bike_primary text-white">Read More</button>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <!-- Footer Section -->
     <footer>
